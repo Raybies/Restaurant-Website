@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Test1",
+    "address": "123",
+    "cuisine": "Mex",
+    "website": "http://www.food.com",
+    "description": "Yes, it has food."
+  },
+  {
+    "name": "New Place",
+    "address": "Food Ave",
+    "cuisine": "Fuzion",
+    "website": "http://www.nan.com",
+    "description": "It has food.",
+    "id": "cf2f84b9-10be-4693-832b-6dc952871668"
+  }
+]
