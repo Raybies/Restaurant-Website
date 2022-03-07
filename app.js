@@ -6,7 +6,6 @@ const defaultRoutes = require('./routes/default');
 const restaurantRoutes = require('./routes/restaurants');
 
 //require express --keep in main app.js file
-
 const express = require('express');
 
 const { render } = require('ejs');
@@ -27,7 +26,8 @@ app.use(express.static('public'));
 //routes middle ware
 app.use(express.urlencoded({ extended: false}));
 
-/*  tells express to use this const that points to the default.js 
+/*  
+    tells express to use this const that points to the default.js 
     file to handle the routes this filters all incoming requests
     to default.js if no route in that file it continues in this
     file
